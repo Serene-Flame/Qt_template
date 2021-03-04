@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{dc9a7f89-550d-4eec-bce5-f48efd6e33e8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d5ec8aec-9a53-4842-85e6-74b578c4e301}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="1_UI">
+      <UniqueIdentifier>{3385f822-0343-4c0b-b7c8-b0ca69eccd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_processor,data">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="3_infomation">
+      <UniqueIdentifier>{70f68d8b-372f-4829-a85a-807b1514e49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0_globalconst,main">
+      <UniqueIdentifier>{a934bb10-536b-4fca-826e-98ce6c795752}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="signalprocessor.cpp">
+      <Filter>2_processor,data</Filter>
+    </ClCompile>
+    <ClCompile Include="maincontroller.cpp">
+      <Filter>2_processor,data</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_maincontroller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_maincontroller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fileloaderdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fileloaderdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_plotwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_plotwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="randomnumber.cpp">
+      <Filter>2_processor,data</Filter>
+    </ClCompile>
+    <ClCompile Include="signalsources.cpp">
+      <Filter>3_infomation</Filter>
+    </ClCompile>
+    <ClCompile Include="signalgroup.cpp">
+      <Filter>3_infomation</Filter>
+    </ClCompile>
+    <ClCompile Include="signalchannel.cpp">
+      <Filter>3_infomation</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>1_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="fileloaderdlg.cpp">
+      <Filter>1_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="plotwidget.cpp">
+      <Filter>1_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="plotthread.cpp">
+      <Filter>1_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>0_globalconst,main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>0_globalconst,main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="signalsources.h">
+      <Filter>3_infomation</Filter>
+    </ClInclude>
+    <ClInclude Include="signalgroup.h">
+      <Filter>3_infomation</Filter>
+    </ClInclude>
+    <ClInclude Include="signalchannel.h">
+      <Filter>3_infomation</Filter>
+    </ClInclude>
+    <ClInclude Include="plotthread.h">
+      <Filter>1_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="randomnumber.h">
+      <Filter>2_processor,data</Filter>
+    </ClInclude>
+    <ClInclude Include="signalprocessor.h">
+      <Filter>2_processor,data</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>0_globalconst,main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>1_UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fileloaderdlg.h">
+      <Filter>1_UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plotwidget.h">
+      <Filter>1_UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="maincontroller.h">
+      <Filter>2_processor,data</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="qt_template.rc" />
+  </ItemGroup>
+</Project>
